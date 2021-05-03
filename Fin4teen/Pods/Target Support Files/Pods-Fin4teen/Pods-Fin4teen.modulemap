@@ -1,0 +1,6 @@
+framework module Pods_Fin4teen {
+  umbrella header "Pods-Fin4teen-umbrella.h"
+
+  export *
+  module * { export * }
+}

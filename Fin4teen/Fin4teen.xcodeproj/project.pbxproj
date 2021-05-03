@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C118BD5B26407E1700205284 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C118BD5A26407E1700205284 /* AppDelegate.swift */; };
+		C118BD5D26407E1700205284 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C118BD5C26407E1700205284 /* SceneDelegate.swift */; };
+		C118BD5F26407E1700205284 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C118BD5E26407E1700205284 /* ViewController.swift */; };
+		C118BD6226407E1700205284 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C118BD6026407E1700205284 /* Main.storyboard */; };
+		C118BD6526407E1700205284 /* Fin4teen.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C118BD6326407E1700205284 /* Fin4teen.xcdatamodeld */; };
+		C118BD6726407E1900205284 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C118BD6626407E1900205284 /* Assets.xcassets */; };
+		C118BD6A26407E1900205284 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C118BD6826407E1900205284 /* LaunchScreen.storyboard */; };
+		C118BD8C2640895700205284 /* CadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C118BD8B2640895700205284 /* CadastroViewController.swift */; };
+		C118BD8F26408BC900205284 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C118BD8E26408BC900205284 /* GoogleService-Info.plist */; };
+		C118BD9226408FC200205284 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C118BD9126408FC200205284 /* LoginViewController.swift */; };
+		C118BD9526409C9700205284 /* RecuperaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C118BD9426409C9700205284 /* RecuperaViewController.swift */; };
+		E98F955D1563A549A7D89AFE /* Pods_Fin4teen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F97B467628555E5885462E1C /* Pods_Fin4teen.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		728AF5D146EEBF8E412E16B8 /* Pods-Fin4teen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fin4teen.debug.xcconfig"; path = "Target Support Files/Pods-Fin4teen/Pods-Fin4teen.debug.xcconfig"; sourceTree = "<group>"; };
+		AA80D929E7F2E173CFA5EA76 /* Pods-Fin4teen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fin4teen.release.xcconfig"; path = "Target Support Files/Pods-Fin4teen/Pods-Fin4teen.release.xcconfig"; sourceTree = "<group>"; };
+		C118BD5726407E1700205284 /* Fin4teen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fin4teen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C118BD5A26407E1700205284 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C118BD5C26407E1700205284 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C118BD5E26407E1700205284 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C118BD6126407E1700205284 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C118BD6426407E1700205284 /* Fin4teen.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Fin4teen.xcdatamodel; sourceTree = "<group>"; };
+		C118BD6626407E1900205284 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C118BD6926407E1900205284 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C118BD6B26407E1900205284 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C118BD8B2640895700205284 /* CadastroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroViewController.swift; sourceTree = "<group>"; };
+		C118BD8E26408BC900205284 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C118BD9126408FC200205284 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C118BD9426409C9700205284 /* RecuperaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecuperaViewController.swift; sourceTree = "<group>"; };
+		F97B467628555E5885462E1C /* Pods_Fin4teen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fin4teen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C118BD5426407E1700205284 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E98F955D1563A549A7D89AFE /* Pods_Fin4teen.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C59DFF979FC3ACFA3DA1D11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F97B467628555E5885462E1C /* Pods_Fin4teen.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C118BD4E26407E1700205284 = {
+			isa = PBXGroup;
+			children = (
+				C118BD5926407E1700205284 /* Fin4teen */,
+				C118BD5826407E1700205284 /* Products */,
+				E245B1C799742545F897CB6A /* Pods */,
+				4C59DFF979FC3ACFA3DA1D11 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C118BD5826407E1700205284 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C118BD5726407E1700205284 /* Fin4teen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C118BD5926407E1700205284 /* Fin4teen */ = {
+			isa = PBXGroup;
+			children = (
+				C118BD5A26407E1700205284 /* AppDelegate.swift */,
+				C118BD5C26407E1700205284 /* SceneDelegate.swift */,
+				C118BD5E26407E1700205284 /* ViewController.swift */,
+				C118BD6026407E1700205284 /* Main.storyboard */,
+				C118BD6626407E1900205284 /* Assets.xcassets */,
+				C118BD6826407E1900205284 /* LaunchScreen.storyboard */,
+				C118BD6B26407E1900205284 /* Info.plist */,
+				C118BD8E26408BC900205284 /* GoogleService-Info.plist */,
+				C118BD6326407E1700205284 /* Fin4teen.xcdatamodeld */,
+				C118BD8B2640895700205284 /* CadastroViewController.swift */,
+				C118BD9126408FC200205284 /* LoginViewController.swift */,
+				C118BD9426409C9700205284 /* RecuperaViewController.swift */,
+			);
+			path = Fin4teen;
+			sourceTree = "<group>";
+		};
+		E245B1C799742545F897CB6A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				728AF5D146EEBF8E412E16B8 /* Pods-Fin4teen.debug.xcconfig */,
+				AA80D929E7F2E173CFA5EA76 /* Pods-Fin4teen.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C118BD5626407E1700205284 /* Fin4teen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C118BD6E26407E1900205284 /* Build configuration list for PBXNativeTarget "Fin4teen" */;
+			buildPhases = (
+				20B4216C8C319CE8E1BDD35D /* [CP] Check Pods Manifest.lock */,
+				C118BD5326407E1700205284 /* Sources */,
+				C118BD5426407E1700205284 /* Frameworks */,
+				C118BD5526407E1700205284 /* Resources */,
+				FA2030D530BA86F4C22E59CD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fin4teen;
+			productName = Fin4teen;
+			productReference = C118BD5726407E1700205284 /* Fin4teen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C118BD4F26407E1700205284 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					C118BD5626407E1700205284 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = C118BD5226407E1700205284 /* Build configuration list for PBXProject "Fin4teen" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C118BD4E26407E1700205284;
+			productRefGroup = C118BD5826407E1700205284 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C118BD5626407E1700205284 /* Fin4teen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C118BD5526407E1700205284 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C118BD6A26407E1900205284 /* LaunchScreen.storyboard in Resources */,
+				C118BD8F26408BC900205284 /* GoogleService-Info.plist in Resources */,
+				C118BD6726407E1900205284 /* Assets.xcassets in Resources */,
+				C118BD6226407E1700205284 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20B4216C8C319CE8E1BDD35D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fin4teen-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA2030D530BA86F4C22E59CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fin4teen/Pods-Fin4teen-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fin4teen/Pods-Fin4teen-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fin4teen/Pods-Fin4teen-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C118BD5326407E1700205284 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C118BD9226408FC200205284 /* LoginViewController.swift in Sources */,
+				C118BD5F26407E1700205284 /* ViewController.swift in Sources */,
+				C118BD5B26407E1700205284 /* AppDelegate.swift in Sources */,
+				C118BD6526407E1700205284 /* Fin4teen.xcdatamodeld in Sources */,
+				C118BD8C2640895700205284 /* CadastroViewController.swift in Sources */,
+				C118BD9526409C9700205284 /* RecuperaViewController.swift in Sources */,
+				C118BD5D26407E1700205284 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C118BD6026407E1700205284 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C118BD6126407E1700205284 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C118BD6826407E1900205284 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C118BD6926407E1900205284 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C118BD6C26407E1900205284 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C118BD6D26407E1900205284 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C118BD6F26407E1900205284 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 728AF5D146EEBF8E412E16B8 /* Pods-Fin4teen.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Fin4teen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.everis.Fin4teen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C118BD7026407E1900205284 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA80D929E7F2E173CFA5EA76 /* Pods-Fin4teen.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Fin4teen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.everis.Fin4teen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C118BD5226407E1700205284 /* Build configuration list for PBXProject "Fin4teen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C118BD6C26407E1900205284 /* Debug */,
+				C118BD6D26407E1900205284 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C118BD6E26407E1900205284 /* Build configuration list for PBXNativeTarget "Fin4teen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C118BD6F26407E1900205284 /* Debug */,
+				C118BD7026407E1900205284 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C118BD6326407E1700205284 /* Fin4teen.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C118BD6426407E1700205284 /* Fin4teen.xcdatamodel */,
+			);
+			currentVersion = C118BD6426407E1700205284 /* Fin4teen.xcdatamodel */;
+			path = Fin4teen.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C118BD4F26407E1700205284 /* Project object */;
+}
