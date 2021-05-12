@@ -6,18 +6,14 @@
 //
 
 import UIKit
-import AVKit
+
 
 
 class DetalhesController: UIViewController {
     
     //MARK: Variables
     
-//    var player = AVPlayer()
-//    var playerViewController = AVPlayerViewController()
-//    var videos = [videosLista]()
-//
-    
+
     
     
     
@@ -67,14 +63,3 @@ class DetalhesController: UIViewController {
 }
     
     
-    
-//    func playVideo(at indexPath: IndexPath){
-//        let selectedVideo = videos[indexPath.row]var url = svideo.videoArquivoNome
-//        let videoPath = Bundle.main.path(forResource: selectedVideo.videoArquivoNome, ofType: "mp4")
-//        let videoPathURL = URL(fileURLWithPath: videoPath!)
-//        player = AVPlayer(url: videoPathURL)
-//        playerViewController.player = player
-//
-//        self.present(playerViewController, animated: true, completion: nil)
-//    }
-
