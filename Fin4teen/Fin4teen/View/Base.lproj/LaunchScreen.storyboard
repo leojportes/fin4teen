@@ -15,8 +15,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fin4teen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rqr-eI-tqr">
-                                <rect key="frame" x="82" y="398" width="251" height="89"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fin4teen" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rqr-eI-tqr">
+                                <rect key="frame" x="81" y="404" width="252" height="89"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="89" id="Sat-1y-wtl"/>
                                 </constraints>
@@ -25,9 +25,9 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sobre dinheiro, sem enrolação! " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AiW-fX-agh">
-                                <rect key="frame" x="90" y="479" width="227" height="19"/>
+                                <rect key="frame" x="94" y="474" width="227" height="31"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="19" id="avG-us-Cjy"/>
+                                    <constraint firstAttribute="height" constant="31" id="avG-us-Cjy"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -37,19 +37,19 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="AiW-fX-agh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="90" id="8a1-os-aGC"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="AiW-fX-agh" secondAttribute="bottom" constant="364" id="P9I-UG-mll"/>
-                            <constraint firstItem="AiW-fX-agh" firstAttribute="top" secondItem="rqr-eI-tqr" secondAttribute="bottom" constant="-8" id="QFs-1o-jNf"/>
+                            <constraint firstItem="AiW-fX-agh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="94" id="8a1-os-aGC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="AiW-fX-agh" secondAttribute="bottom" constant="357" id="P9I-UG-mll"/>
+                            <constraint firstItem="AiW-fX-agh" firstAttribute="top" secondItem="rqr-eI-tqr" secondAttribute="bottom" constant="-19" id="QFs-1o-jNf"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rqr-eI-tqr" secondAttribute="trailing" constant="81" id="ajx-zz-GRL"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="AiW-fX-agh" secondAttribute="trailing" constant="97" id="iny-JH-bJa"/>
-                            <constraint firstItem="rqr-eI-tqr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="82" id="srs-qY-akV"/>
-                            <constraint firstItem="rqr-eI-tqr" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="354" id="zMt-ky-qaE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="AiW-fX-agh" secondAttribute="trailing" constant="93" id="iny-JH-bJa"/>
+                            <constraint firstItem="rqr-eI-tqr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="81" id="srs-qY-akV"/>
+                            <constraint firstItem="rqr-eI-tqr" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="360" id="zMt-ky-qaE"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
         </scene>
     </scenes>
 </document>
