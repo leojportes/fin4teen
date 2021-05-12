@@ -15,6 +15,6 @@ import UIKit
 struct LivrosLista {
     let livrosImage: UIImage
     let livrosNome: String
-    let livrosLink: String
+    let livrosLink: String?
     
 }

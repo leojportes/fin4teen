@@ -44,64 +44,64 @@ class LivrosViewController: UIViewController {
     
     func cadastramentaLivros() {
         
-        let item:LivrosLista = LivrosLista(livrosImage: UIImage(named: "pairicopaipobre")!, livrosNome: "Pai Rico, Pai Pobre", livrosLink:  "https://pt.wikipedia.org/wiki/Pai_Rico,_Pai_Pobre")
+        let item:LivrosLista = LivrosLista(livrosImage: UIImage(named: "pairicopaipobre")!, livrosNome: "Pai Rico, Pai Pobre", livrosLink:  "https://ler.amazon.com.br/kp/embed?asin=B07H4WYN5M&preview=newtab&linkCode=kpe&ref_=cm_sw_r_kb_dp_S58MPJYSA5BAJDWHEHCX")
         itemListaLivros.append(item)
         
-        let item2:LivrosLista = LivrosLista(livrosImage: UIImage(named: "ossegredosdamente")!, livrosNome: "Os Segredos da mente Milionária", livrosLink: "https://www.amazon.com.br/segredos-mente-milionária-Harv-Eker/dp/8575422391/ref=asc_df_8575422391/?tag=googleshopp00-20&linkCode=df0&hvadid=379795101554&hvpos=&hvnetw=g&hvrand=14742159844217203137&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001706&hvtargid=pla-572355951315&psc=1")
+        let item2:LivrosLista = LivrosLista(livrosImage: UIImage(named: "ossegredosdamente")!, livrosNome: "Os Segredos da mente Milionária", livrosLink: "https://ler.amazon.com.br/kp/embed?asin=B00A3D1FVC&preview=newtab&linkCode=kpe&ref_=cm_sw_r_kb_dp_XVHCMDQ209J75WZYTMN4")
         itemListaLivros.append(item2)
         
-        let item3:LivrosLista = LivrosLista(livrosImage: UIImage(named: "domilaomilao")!, livrosNome: "Do Mil ao Milão", livrosLink: "https://www.amazon.com.br/Mil-Milhão-Sem-Cortar-Cafezinho/dp/8595083274/ref=asc_df_8595083274/?tag=googleshopp00-20&linkCode=df0&hvadid=379715842311&hvpos=&hvnetw=g&hvrand=17014675745076851435&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001706&hvtargid=pla-743474651893&psc=1")
+        let item3:LivrosLista = LivrosLista(livrosImage: UIImage(named: "domilaomilao")!, livrosNome: "Do Mil ao Milão", livrosLink: "https://ler.amazon.com.br/kp/embed?asin=B07HQWPVRS&preview=newtab&linkCode=kpe&ref_=cm_sw_r_kb_dp_9AFA9VF1KFD4YF0HKDHX")
         itemListaLivros.append(item3)
         
-        let item4:LivrosLista = LivrosLista(livrosImage: UIImage(named: "ohomemmaisricodababilonia")!, livrosNome: "O Homem mais rico da Babilônia", livrosLink: "https://www.amazon.com.br/Homem-Mais-Rico-Babilônia/dp/8595081530/ref=sr_1_3?__mk_pt_BR=ÅMÅŽÕÑ&dchild=1&keywords=O+Homem+mais+rico+da+Babilônia&qid=1620779699&s=books&sr=1-3")
+        let item4:LivrosLista = LivrosLista(livrosImage: UIImage(named: "ohomemmaisricodababilonia")!, livrosNome: "O Homem mais rico da Babilônia", livrosLink: "")
         itemListaLivros.append(item4)
         
-        let item5:LivrosLista = LivrosLista(livrosImage: UIImage(named: "oinvestidorinteligente")!, livrosNome: "O investidor inteligente", livrosLink: "https://www.amazon.com.br/Investidor-Inteligente-Benjamin-Graham/dp/8595080801/ref=sr_1_3?__mk_pt_BR=ÅMÅŽÕÑ&dchild=1&keywords=O+investidor+inteligente&qid=1620779725&s=books&sr=1-3")
+        let item5:LivrosLista = LivrosLista(livrosImage: UIImage(named: "oinvestidorinteligente")!, livrosNome: "O investidor inteligente", livrosLink: "https://ler.amazon.com.br/kp/embed?asin=B01B3I5Y44&preview=newtab&linkCode=kpe&ref_=cm_sw_r_kb_dp_MC31G82QPPHYZQQD45VP")
         itemListaLivros.append(item5)
         
-        let item6:LivrosLista = LivrosLista(livrosImage: UIImage(named: "mepoupe")!, livrosNome: "10 Passos pra nunca faltar\n dinheiro no seu Bolso", livrosLink: "https://www.amazon.com.br/Me-Poupe-passos-faltar-dinheiro-ebook/dp/B07CX9GJ2R/ref=sr_1_1?__mk_pt_BR=ÅMÅŽÕÑ&dchild=1&keywords=10+passos+para+nunca+faltar%5Cn+dinheiro+no+seu+bolso&qid=1620779748&s=books&sr=1-1")
+        let item6:LivrosLista = LivrosLista(livrosImage: UIImage(named: "mepoupe")!, livrosNome: "10 Passos pra nunca faltar\n dinheiro no seu Bolso", livrosLink: "https://ler.amazon.com.br/kp/embed?asin=B07CX9GJ2R&preview=newtab&linkCode=kpe&ref_=cm_sw_r_kb_dp_4BS5Y6PGVGES3AK7JFTM")
         itemListaLivros.append(item6)
         ///
-        let item7:LivrosLista = LivrosLista(livrosImage: UIImage(named: "acabecadoinvestidor")!, livrosNome: "A Cabeça do investidor", livrosLink: "https://www.amazon.com.br/cabeça-investidor-Conheça-emoções-investir/dp/8563993127/ref=sr_1_1?__mk_pt_BR=ÅMÅŽÕÑ&dchild=1&keywords=A+Cabeça+do+investidor&qid=1620779773&s=books&sr=1-1")
+        let item7:LivrosLista = LivrosLista(livrosImage: UIImage(named: "acabecadoinvestidor")!, livrosNome: "A Cabeça do investidor", livrosLink: "")
         itemListaLivros.append(item7)
         
-        let item8:LivrosLista = LivrosLista(livrosImage: UIImage(named: "educacaofinanceira")!, livrosNome: "O poder da Educação Financeira", livrosLink: "https://www.amazon.com.br/Pai-rico-poder-educação-financeira/dp/8550801275/ref=sr_1_1?__mk_pt_BR=ÅMÅŽÕÑ&dchild=1&keywords=O+poder+da+Educação+Financeira&qid=1620779822&s=books&sr=1-1")
+        let item8:LivrosLista = LivrosLista(livrosImage: UIImage(named: "educacaofinanceira")!, livrosNome: "O poder da Educação Financeira", livrosLink: "https://ler.amazon.com.br/kp/embed?asin=B07H4V5HPG&preview=newtab&linkCode=kpe&ref_=cm_sw_r_kb_dp_D10A5P8Z9XB85K7MD5EC")
         itemListaLivros.append(item8)
         
-        let item9:LivrosLista = LivrosLista(livrosImage: UIImage(named: "apsicologiafinanceira")!, livrosNome: "A Psicologia financeira", livrosLink: "https://www.amazon.com.br/psicologia-financeira-atemporais-ganância-felicidade/dp/6555111100/ref=sr_1_2?__mk_pt_BR=ÅMÅŽÕÑ&dchild=1&keywords=A+Psicologia+financeira&qid=1620779848&s=books&sr=1-2")
+        let item9:LivrosLista = LivrosLista(livrosImage: UIImage(named: "apsicologiafinanceira")!, livrosNome: "A Psicologia financeira", livrosLink: "https://ler.amazon.com.br/kp/embed?asin=B08WBXHFBL&preview=newtab&linkCode=kpe&ref_=cm_sw_r_kb_dp_VZQB9AVF73FNTMZ8BJDK")
         itemListaLivros.append(item9)
         
-        let item10:LivrosLista = LivrosLista(livrosImage: UIImage(named: "comocuidardoseudinheiro")!, livrosNome: "Como cuidar do seu dinheiro", livrosLink: "https://www.amazon.com.br/Como-cuidar-do-seu-dinheiro/dp/6555110600/ref=sr_1_1?__mk_pt_BR=ÅMÅŽÕÑ&dchild=1&keywords=Como+cuidar+do+seu+dinheiro&qid=1620779866&s=books&sr=1-1")
+        let item10:LivrosLista = LivrosLista(livrosImage: UIImage(named: "comocuidardoseudinheiro")!, livrosNome: "Como cuidar do seu dinheiro", livrosLink: "https://ler.amazon.com.br/kp/embed?asin=B08LHJQ6H6&preview=newtab&linkCode=kpe&ref_=cm_sw_r_kb_dp_ZANV5B4MZ9QE2BWRP24B")
         itemListaLivros.append(item10)
         
-        let item11:LivrosLista = LivrosLista(livrosImage: UIImage(named: "investimentosinteligentes")!, livrosNome: "Investimentos Inteligentes", livrosLink: "https://www.amazon.com.br/Investimentos-inteligentes-Gustavo-Cerbasi/dp/8543109051/ref=sr_1_1?__mk_pt_BR=ÅMÅŽÕÑ&dchild=1&keywords=Investimentos+Inteligentes&qid=1620779881&s=books&sr=1-1")
+        let item11:LivrosLista = LivrosLista(livrosImage: UIImage(named: "investimentosinteligentes")!, livrosNome: "Investimentos Inteligentes", livrosLink: "https://ler.amazon.com.br/kp/embed?asin=B00GA9BTT6&preview=newtab&linkCode=kpe&ref_=cm_sw_r_kb_dp_2N295A65WKYN16STRG0E")
         itemListaLivros.append(item11)
         
-        let item12:LivrosLista = LivrosLista(livrosImage: UIImage(named: "destraveseudinheiro")!, livrosNome: "Destrave seu dinheiro.", livrosLink: "https://www.amazon.com.br/Destrave-seu-dinheiro-Cocriação-Financeira/dp/6587885195/ref=sr_1_3?__mk_pt_BR=ÅMÅŽÕÑ&dchild=1&keywords=Destrave+seu+dinheiro&qid=1620779901&s=books&sr=1-3")
+        let item12:LivrosLista = LivrosLista(livrosImage: UIImage(named: "destraveseudinheiro")!, livrosNome: "Destrave seu dinheiro.", livrosLink: "https://ler.amazon.com.br/kp/embed?asin=B08VTLPQNB&preview=newtab&linkCode=kpe&ref_=cm_sw_r_kb_dp_R43R3AS45RQ92GA19Z3X")
         itemListaLivros.append(item12)
         
-        let item13:LivrosLista = LivrosLista(livrosImage: UIImage(named: "quemconvenceenriquece")!, livrosNome: "Quem convence, enriquece!", livrosLink: "https://www.amazon.com.br/Quem-Convence-Enriquece-Napoleon-Hill/dp/8568014488/ref=sr_1_1?__mk_pt_BR=ÅMÅŽÕÑ&dchild=1&keywords=Quem+convence%2C+enriquece&qid=1620779930&s=books&sr=1-1")
+        let item13:LivrosLista = LivrosLista(livrosImage: UIImage(named: "quemconvenceenriquece")!, livrosNome: "Quem convence, enriquece!", livrosLink: "https://ler.amazon.com.br/kp/embed?asin=B07M7F66JD&preview=newtab&linkCode=kpe&ref_=cm_sw_r_kb_dp_8JJCPPB9XYQ87M4MM8ZE")
         itemListaLivros.append(item13)
         
-        let item14:LivrosLista = LivrosLista(livrosImage: UIImage(named: "ooutroladodabolsa")!, livrosNome: "O outro lado da bolsa.", livrosLink: "https://www.amazon.com.br/Outro-Lado-Bolsa-Investidores-Iniciantes/dp/1777438535/ref=sr_1_1?__mk_pt_BR=ÅMÅŽÕÑ&dchild=1&keywords=O+outro+lado+da+bolsa.&qid=1620779955&s=books&sr=1-1")
+        let item14:LivrosLista = LivrosLista(livrosImage: UIImage(named: "ooutroladodabolsa")!, livrosNome: "O outro lado da bolsa.", livrosLink: "https://ler.amazon.com.br/kp/embed?asin=B08TLPRKFJ&preview=newtab&linkCode=kpe&ref_=cm_sw_r_kb_dp_1C920FWT3B7PDQBQ091H")
         itemListaLivros.append(item14)
         
-        let item15:LivrosLista = LivrosLista(livrosImage: UIImage(named: "lucrandocomostubaroes")!, livrosNome: "Lucrando com os tubarões.", livrosLink: "https://www.amazon.com.br/Lucrando-com-Tubarões-Newton-Linchen/dp/8575222880/ref=sr_1_1?__mk_pt_BR=ÅMÅŽÕÑ&dchild=1&keywords=Lucrando+com+os+tubarões.&qid=1620779971&s=books&sr=1-1")
+        let item15:LivrosLista = LivrosLista(livrosImage: UIImage(named: "lucrandocomostubaroes")!, livrosNome: "Lucrando com os tubarões.", livrosLink: "https://ler.amazon.com.br/kp/embed?asin=B07BJ7NMFR&preview=newtab&linkCode=kpe&ref_=cm_sw_r_kb_dp_CB589NYKJGPK1FYT6B8H")
         itemListaLivros.append(item15)
         
-        let item16:LivrosLista = LivrosLista(livrosImage: UIImage(named: "supersinais")!, livrosNome: "Manual dos Super sinais da análise técnica.", livrosLink: "")
+        let item16:LivrosLista = LivrosLista(livrosImage: UIImage(named: "supersinais")!, livrosNome: "Manual dos Super sinais da análise técnica.", livrosLink: "https://ler.amazon.com.br/kp/embed?asin=B08J2YWPTQ&preview=newtab&linkCode=kpe&ref_=cm_sw_r_kb_dp_2TZ752TC3FZDM37B5YSZ")
         itemListaLivros.append(item16)
         
-        let item17:LivrosLista = LivrosLista(livrosImage: UIImage(named: "negociandoacoescomfoco")!, livrosNome: "https://www.amazon.com.br/Manual-Supersinais-Análise-Técnica-Investimentos/dp/8550813761/ref=sr_1_1?__mk_pt_BR=ÅMÅŽÕÑ&dchild=1&keywords=manual+dos+supersinais+da+análise+técnica&qid=1620779985&s=books&sr=1-1", livrosLink: "")
+        let item17:LivrosLista = LivrosLista(livrosImage: UIImage(named: "negociandoacoescomfoco")!, livrosNome: "Negociando Ações com Foco", livrosLink: "https://ler.amazon.com.br/kp/embed?asin=B08J2YWPTQ&preview=newtab&linkCode=kpe&ref_=cm_sw_r_kb_dp_QP690JV047B0A675WSQT")
         itemListaLivros.append(item17)
         
-        let item18:LivrosLista = LivrosLista(livrosImage: UIImage(named: "analisetecnicadomercadofin")!, livrosNome: "Análise técnica do mercado financeiro.", livrosLink: "https://www.amazon.com.br/Análise-técnica-mercado-financeiro-abrangente/dp/8550815128/ref=sr_1_1?__mk_pt_BR=ÅMÅŽÕÑ&dchild=1&keywords=Análise+técnica+do+mercado+financeiro.&qid=1620780002&s=books&sr=1-1")
+        let item18:LivrosLista = LivrosLista(livrosImage: UIImage(named: "analisetecnicadomercadofin")!, livrosNome: "Análise técnica do mercado financeiro.", livrosLink: "https://ler.amazon.com.br/kp/embed?asin=B08Z4J5KX3&preview=newtab&linkCode=kpe&ref_=cm_sw_r_kb_dp_MRS2QD6GTRMAZD0PE7PD")
         itemListaLivros.append(item18)
         
-        let item19:LivrosLista = LivrosLista(livrosImage: UIImage(named: "aboladeneve")!, livrosNome: "A bola de neve.", livrosLink: "https://www.amazon.com.br/Bola-Neve-Warren-Buffett-Negócio/dp/8575424408/ref=sr_1_1?__mk_pt_BR=ÅMÅŽÕÑ&dchild=1&keywords=A+bola+de+neve&qid=1620780041&s=books&sr=1-1")
+        let item19:LivrosLista = LivrosLista(livrosImage: UIImage(named: "aboladeneve")!, livrosNome: "A bola de neve.", livrosLink: "https://ler.amazon.com.br/kp/embed?asin=B00A3D92NU&preview=newtab&linkCode=kpe&ref_=cm_sw_r_kb_dp_NS4E54X93KG7NC56CZE3")
         itemListaLivros.append(item19)
         
-        let item20:LivrosLista = LivrosLista(livrosImage: UIImage(named: "facafortunacomacoes")!, livrosNome: "Faça fortuna com ações.", livrosLink: "https://www.amazon.com.br/Faça-Fortuna-Ações-Antes-Tarde/dp/8585454164/ref=sr_1_1?__mk_pt_BR=ÅMÅŽÕÑ&dchild=1&keywords=Faça+fortuna+com+ações&qid=1620780056&s=books&sr=1-1")
+        let item20:LivrosLista = LivrosLista(livrosImage: UIImage(named: "facafortunacomacoes")!, livrosNome: "Faça fortuna com ações.", livrosLink: "https://ler.amazon.com.br/kp/embed?asin=B07WTXSN4G&preview=newtab&linkCode=kpe&ref_=cm_sw_r_kb_dp_1VP1SC9NZ48CTCRD15CW")
         itemListaLivros.append(item20)
         
      

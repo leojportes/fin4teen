@@ -31,6 +31,7 @@ class CriptoViewController: UIViewController, UITableViewDataSource, UITableView
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
         title = "Criptomoedas Hoje"
         view.addSubview(tableView)
         tableView.dataSource = self

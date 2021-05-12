@@ -51,12 +51,12 @@ class LivrosDetalhes: UIViewController {
     }
 
    @IBAction func btLinkLivros() {
-      linkLivros()
+        chamaLinkLivros()
     }
     
-    func linkLivros(){
+    func chamaLinkLivros(){
         let url = sLivros.livrosLink
-            UIApplication.shared.open(URL(string: url)! as URL, options: [:], completionHandler: nil)
+        UIApplication.shared.open(URL(string: url!)! as URL, options: [:], completionHandler: nil)
     }
 
     
