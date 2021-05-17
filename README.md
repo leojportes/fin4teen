@@ -14,6 +14,8 @@ Aplicativo de Educação Financeira com foco em jovens.
  
  [Possíveis Melhorias](#possíveis-melhorias)
  
+ [Dependências](#dependencias)
+ 
  
  [Build](#build)
 
@@ -35,5 +37,10 @@ Aplicação foi desenvolvida em [Swift](https://www.apple.com/br/swift/) por mei
 ## Build
 Necessário ter [Xcode](https://developer.apple.com/xcode/) instalado.
 
+## Dependências
+<b>Firebase/Auth<br>
+<b>Alamofire version 4.7.0<br>
+<b>Alamofire Image version 3.4.0<br>
+ 
 
 Projeto gerado com Xcode version 12.5.
