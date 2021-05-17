@@ -3,9 +3,37 @@
 
 
 # Fin4teen
+
+Aplicativo de Educação Financeira com foco em jovens. 
+
+## Tópicos 
+
+ [Descrição do projeto](#descrição-do-projeto)
+ 
+ [Construção](#construção)
+ 
+ [Possíveis Melhorias](#possíveis-melhorias)
+ 
+ 
+ [Build](#build)
+
+## Descrição do Projeto
+No aplicativo, há sessões de videoaulas, recomendações, que recomenda livros, filmes, séries e programas de TV. 
+Também a sessão de consulta das criptomoedas e seu respectivo valor em tempo real vinculado a uma API. 
+Os dados são requisitados via [API de criptomoedas](https://www.coinapi.io)
+
 ![AppFin4teen](https://github.com/leojportes/Fin4teen/blob/main/Corte.gif)
 
+## Construção
+Aplicação foi desenvolvida em [Swift](https://www.apple.com/br/swift/) por meio da IDE Xcode.
 
-* Tópicos:
+## Possíveis Melhorias
+<b>Expansões</b>: Adicionar sessão de filmes, programas de TV e Séries no app.<br>
+<b>Responsividade</b>: Adequar layout responsivel para visualização em diferentes dispositivos mobile Apple.;<br>
+<b>Testes</b>: Aplicação de testes unitários;
+
+## Build
+Necessário ter [Xcode](https://developer.apple.com/xcode/) instalado.
 
 
+Projeto gerado com Xcode version 12.5.
