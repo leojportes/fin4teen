@@ -153,13 +153,13 @@
 		C118BD982641B70C00205284 /* View Model */ = {
 			isa = PBXGroup;
 			children = (
+				C1E865F6264331B0002C40AC /* DetalhesController.swift */,
+				C156086A2644526F00C6C165 /* PrincipalViewController.swift */,
+				C1E865F226430E1C002C40AC /* ViewController.swift */,
+				C1E865E1264303B0002C40AC /* BibliotecaCollectionViewCell.swift */,
 				C1E865EB264306C0002C40AC /* LoginCadastroRecuperaSenha */,
 				C106A9AE2649F6F000B488C5 /* Recomendações */,
 				C10BA62D264970F700906FF2 /* CriptoMoedas */,
-				C156086A2644526F00C6C165 /* PrincipalViewController.swift */,
-				C1E865F6264331B0002C40AC /* DetalhesController.swift */,
-				C1E865F226430E1C002C40AC /* ViewController.swift */,
-				C1E865E1264303B0002C40AC /* BibliotecaCollectionViewCell.swift */,
 			);
 			path = "View Model";
 			sourceTree = "<group>";

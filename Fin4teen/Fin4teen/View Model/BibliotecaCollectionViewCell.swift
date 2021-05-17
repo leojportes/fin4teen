@@ -16,9 +16,6 @@ class BibliotecaCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var itemLabel: UILabel!
     
-    
-    
-    
     @IBOutlet weak var viewDetalhes: UIButton!
     
   
