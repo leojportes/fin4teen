@@ -24,7 +24,7 @@ Aplicativo de Educação Financeira com foco em jovens.
 <b>Também a sessão de consulta das criptomoedas e seu respectivo valor em tempo real vinculado a uma API.<br>
 <b>Os dados são requisitados via [API de criptomoedas](https://www.coinapi.io)<br>
  
- ![Instagram](https://www.instagram.com/fin4teenapp/)
+ [Instagram](https://www.instagram.com/fin4teenapp/)
  
 
 ![AppFin4teen](https://github.com/leojportes/Fin4teen/blob/main/Corte.gif)
