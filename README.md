@@ -34,8 +34,8 @@ Aplicação foi desenvolvida em [Swift](https://www.apple.com/br/swift/) por mei
 
 ## Possíveis Melhorias
 <b>Expansões</b>: Adicionar sessão de filmes, programas de TV e Séries no app.<br>
-<b>Responsividade</b>: Adequar layout responsivel para visualização em diferentes dispositivos mobile Apple.;<br>
-<b>Testes</b>: Aplicação de testes unitários;
+<b>Responsividade</b>: Adequar layout responsivel para visualização em diferentes dispositivos mobile Apple.<br>
+<b>Testes</b>: Aplicação de testes unitários.
 
 ## Build
 Necessário ter [Xcode](https://developer.apple.com/xcode/) instalado.
