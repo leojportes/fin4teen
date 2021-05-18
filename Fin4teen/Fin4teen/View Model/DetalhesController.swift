@@ -16,7 +16,6 @@ class DetalhesController: UIViewController {
 
     
     
-    
     //MARK: Outlets
 
     @IBOutlet weak var detalhesLabel: UILabel!
