@@ -26,6 +26,11 @@
 		C156541D264AF4B60031872C /* LivrosDetalhes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C156541C264AF4B60031872C /* LivrosDetalhes.swift */; };
 		C1565421264AF79F0031872C /* LivrosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1565420264AF79F0031872C /* LivrosViewController.swift */; };
 		C1565424264AFA830031872C /* LivrosCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1565423264AFA830031872C /* LivrosCollectionViewCell.swift */; };
+		C1977409265315DF0002BF3F /* ContateNosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1977408265315DF0002BF3F /* ContateNosViewController.swift */; };
+		C197740E265349530002BF3F /* FilmesDetalhes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C197740D265349530002BF3F /* FilmesDetalhes.swift */; };
+		C1977411265349660002BF3F /* FilmesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1977410265349660002BF3F /* FilmesViewController.swift */; };
+		C19774142653497A0002BF3F /* FilmesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19774132653497A0002BF3F /* FilmesCollectionViewCell.swift */; };
+		C197741726534B7C0002BF3F /* FilmesLista.swift in Sources */ = {isa = PBXBuildFile; fileRef = C197741626534B7C0002BF3F /* FilmesLista.swift */; };
 		C1E865D4264230C5002C40AC /* RequestApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E865D3264230C5002C40AC /* RequestApi.swift */; };
 		C1E865E2264303B0002C40AC /* BibliotecaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E865E1264303B0002C40AC /* BibliotecaCollectionViewCell.swift */; };
 		C1E865E526430554002C40AC /* videosLista.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E865E426430554002C40AC /* videosLista.swift */; };
@@ -60,6 +65,11 @@
 		C156541C264AF4B60031872C /* LivrosDetalhes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivrosDetalhes.swift; sourceTree = "<group>"; };
 		C1565420264AF79F0031872C /* LivrosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivrosViewController.swift; sourceTree = "<group>"; };
 		C1565423264AFA830031872C /* LivrosCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivrosCollectionViewCell.swift; sourceTree = "<group>"; };
+		C1977408265315DF0002BF3F /* ContateNosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContateNosViewController.swift; sourceTree = "<group>"; };
+		C197740D265349530002BF3F /* FilmesDetalhes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmesDetalhes.swift; sourceTree = "<group>"; };
+		C1977410265349660002BF3F /* FilmesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmesViewController.swift; sourceTree = "<group>"; };
+		C19774132653497A0002BF3F /* FilmesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmesCollectionViewCell.swift; sourceTree = "<group>"; };
+		C197741626534B7C0002BF3F /* FilmesLista.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmesLista.swift; sourceTree = "<group>"; };
 		C1E865D3264230C5002C40AC /* RequestApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestApi.swift; sourceTree = "<group>"; };
 		C1E865E1264303B0002C40AC /* BibliotecaCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibliotecaCollectionViewCell.swift; sourceTree = "<group>"; };
 		C1E865E426430554002C40AC /* videosLista.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = videosLista.swift; sourceTree = "<group>"; };
@@ -93,7 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				C15608AA2645DD7600C6C165 /* RecomendacoesViewController.swift */,
-				C156541B264AF28E0031872C /* Livros */,
+				C1977408265315DF0002BF3F /* ContateNosViewController.swift */,
 			);
 			name = "Recomendações";
 			path = "Recomendações";
@@ -158,6 +168,8 @@
 				C1E865F226430E1C002C40AC /* ViewController.swift */,
 				C1E865E1264303B0002C40AC /* BibliotecaCollectionViewCell.swift */,
 				C1E865EB264306C0002C40AC /* LoginCadastroRecuperaSenha */,
+				C197740C265349300002BF3F /* Filmes */,
+				C156541B264AF28E0031872C /* Livros */,
 				C106A9AE2649F6F000B488C5 /* Recomendações */,
 				C10BA62D264970F700906FF2 /* CriptoMoedas */,
 			);
@@ -179,6 +191,7 @@
 			children = (
 				C1E865E426430554002C40AC /* videosLista.swift */,
 				C1565417264AF1FE0031872C /* LivrosLista.swift */,
+				C197741626534B7C0002BF3F /* FilmesLista.swift */,
 				C1E865EC264306FD002C40AC /* Services */,
 			);
 			path = Model;
@@ -201,6 +214,16 @@
 				C1565423264AFA830031872C /* LivrosCollectionViewCell.swift */,
 			);
 			path = Livros;
+			sourceTree = "<group>";
+		};
+		C197740C265349300002BF3F /* Filmes */ = {
+			isa = PBXGroup;
+			children = (
+				C197740D265349530002BF3F /* FilmesDetalhes.swift */,
+				C1977410265349660002BF3F /* FilmesViewController.swift */,
+				C19774132653497A0002BF3F /* FilmesCollectionViewCell.swift */,
+			);
+			path = Filmes;
 			sourceTree = "<group>";
 		};
 		C1E865EB264306C0002C40AC /* LoginCadastroRecuperaSenha */ = {
@@ -345,6 +368,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C19774142653497A0002BF3F /* FilmesCollectionViewCell.swift in Sources */,
 				C1565421264AF79F0031872C /* LivrosViewController.swift in Sources */,
 				C118BD9226408FC200205284 /* LoginViewController.swift in Sources */,
 				C10BA638264980A800906FF2 /* Models.swift in Sources */,
@@ -355,16 +379,20 @@
 				C118BD6526407E1700205284 /* Fin4teen.xcdatamodeld in Sources */,
 				C15608AB2645DD7600C6C165 /* RecomendacoesViewController.swift in Sources */,
 				C156086B2644526F00C6C165 /* PrincipalViewController.swift in Sources */,
+				C1977409265315DF0002BF3F /* ContateNosViewController.swift in Sources */,
 				C1E865E2264303B0002C40AC /* BibliotecaCollectionViewCell.swift in Sources */,
+				C197741726534B7C0002BF3F /* FilmesLista.swift in Sources */,
 				C10BA634264971FF00906FF2 /* CryptoTableViewCell.swift in Sources */,
 				C118BD8C2640895700205284 /* CadastroViewController.swift in Sources */,
 				C1E865E526430554002C40AC /* videosLista.swift in Sources */,
 				C1E865F326430E1C002C40AC /* ViewController.swift in Sources */,
+				C1977411265349660002BF3F /* FilmesViewController.swift in Sources */,
 				C1565424264AFA830031872C /* LivrosCollectionViewCell.swift in Sources */,
 				C118BD9526409C9700205284 /* RecuperaViewController.swift in Sources */,
 				C118BD5D26407E1700205284 /* SceneDelegate.swift in Sources */,
 				C10BA62F2649711D00906FF2 /* CriptoViewController.swift in Sources */,
 				C1E865D4264230C5002C40AC /* RequestApi.swift in Sources */,
+				C197740E265349530002BF3F /* FilmesDetalhes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

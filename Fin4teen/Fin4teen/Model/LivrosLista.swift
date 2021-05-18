@@ -8,9 +8,7 @@
 
 import Foundation
 import UIKit
-
-
-
+ 
 
 struct LivrosLista {
     let livrosImage: UIImage

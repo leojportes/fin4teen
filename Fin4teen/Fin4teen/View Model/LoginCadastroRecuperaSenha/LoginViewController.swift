@@ -83,8 +83,8 @@ class LoginViewController: UIViewController {
     
     @IBAction func btInstagram(_ sender: AnyObject) {
      
-        let alertControllerLivros = UIAlertController(title: "Atenção!", message: "Deseja ir para o Instagram?", preferredStyle: UIAlertController.Style.alert)
-        alertControllerLivros.addAction(UIAlertAction(title: "Ir", style: .default, handler: { action in
+        let alertControllerLivros = UIAlertController(title: "Atenção!", message: "Deseja acessar nosso perfil no Instagram?", preferredStyle: UIAlertController.Style.alert)
+        alertControllerLivros.addAction(UIAlertAction(title: "Acessar", style: .default, handler: { action in
             self.urlInstagram()
             
         }))

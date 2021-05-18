@@ -9,8 +9,6 @@ import Foundation
 import UIKit
 
 
-
-
 struct videosLista {
     let videosImage: UIImage
     let videosNome: String

@@ -6,11 +6,15 @@
 //
 
 import UIKit
+import MessageUI
 
-class PrincipalViewController: UIViewController {
+class PrincipalViewController: UIViewController, MFMailComposeViewControllerDelegate {
 
     
     //MARK: Actions
+    
+  
+    
     
     @IBAction func dismissAction(_ sender: Any) {
         navigationController?.popViewController(animated: true)
@@ -44,5 +48,8 @@ class PrincipalViewController: UIViewController {
         alertController.addAction(ok)
         self.present(alertController, animated: true, completion: nil)
         }
+        
+
     
 }
+        

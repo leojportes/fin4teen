@@ -16,6 +16,7 @@ final class RequestApi {
         static let apiKey = "1F8A5E86-F1C9-41C7-B8BB-9DB1B81FDE7C"
         static let assetsEndPoint = "https://rest-sandbox.coinapi.io/v1/assets/"
     }
+    
     private init() {}
 
     public var icons: [Icons] = []

@@ -9,6 +9,7 @@ import UIKit
 
 class BibliotecaCollectionViewCell: UICollectionViewCell {
     
+
     
     // MARK: Outlets
     

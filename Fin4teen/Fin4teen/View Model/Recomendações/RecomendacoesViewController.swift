@@ -9,6 +9,12 @@ import UIKit
 
 class RecomendacoesViewController: UIViewController {
 
+//MARK: Actions
+    
+    @IBAction func btLivros(_ sender: UIButton) {
+    
+    }
+    
     @IBAction func dismissAction(_ sender: Any) {
         navigationController?.popViewController(animated: true)
     }
@@ -17,7 +23,7 @@ class RecomendacoesViewController: UIViewController {
 
 override func viewDidLoad() {
     super.viewDidLoad()
-    
+
     }
     
 }

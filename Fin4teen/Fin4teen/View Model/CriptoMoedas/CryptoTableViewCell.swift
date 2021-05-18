@@ -144,6 +144,6 @@ class CryptoTableViewCell: UITableViewCell {
             task.resume()
         }
         
-    }
+     }
 
 }
