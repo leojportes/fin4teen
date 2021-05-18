@@ -85,6 +85,6 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
         
         home.svideo = itemLista[indexpath1.row]
         self.navigationController?.pushViewController(home, animated: true)
-        
     }
+
 }
