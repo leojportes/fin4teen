@@ -10,11 +10,17 @@ import UIKit
 
 
 class DetalhesController: UIViewController {
+ 
+    //MARK: LifeCycle
     
-    //MARK: Variables
-    
-
-    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        if let video = svideo {
+        detalhesImage.image = video.videosImage
+        detalhesLabel.text = video.videosNome
+        }
+    }
     
     //MARK: Outlets
 
@@ -29,6 +35,9 @@ class DetalhesController: UIViewController {
         navigationController?.popViewController(animated: true)
     }
     
+    @IBAction func btVideo() {
+       playVideo()
+     }
     
     //MARK: Variables
     
@@ -36,29 +45,14 @@ class DetalhesController: UIViewController {
     var url = String()
     
     
-    //MARK: LifeCycle
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        if let video = svideo {
-        detalhesImage.image = video.videosImage
-        detalhesLabel.text = video.videosNome
-        }
-
-    }
-
-   @IBAction func btVideo() {
-      playVideo()
-    }
+    //MARK: Functions
     
     func playVideo(){
         let url = svideo.videoArquivoNome
             UIApplication.shared.open(URL(string: url)! as URL, options: [:], completionHandler: nil)
     }
-
-    
-    
+ 
 }
     
     

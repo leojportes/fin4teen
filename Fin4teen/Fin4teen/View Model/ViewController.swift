@@ -39,7 +39,7 @@ class ViewController: UIViewController {
     
     //MARK: Functions
     
-    func cadastraAulas(){
+    func cadastraAulas(){         //Cadastra videoaulas
         let item:videosLista = videosLista(videosImage: UIImage(named: "comeceaqui")!, videosNome: "Como começar a investir - Jovens de Negócios", videoArquivoNome:  "https://www.youtube.com/watch?v=PtAkxzMhobQ")
         itemLista.append(item)
         
@@ -85,6 +85,6 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
         
         home.svideo = itemLista[indexpath1.row]
         self.navigationController?.pushViewController(home, animated: true)
-        
     }
+
 }

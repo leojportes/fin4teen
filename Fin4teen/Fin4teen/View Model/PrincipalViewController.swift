@@ -13,30 +13,22 @@ class PrincipalViewController: UIViewController, MFMailComposeViewControllerDele
     
     //MARK: Actions
     
-  
-    
-    
     @IBAction func dismissAction(_ sender: Any) {
         navigationController?.popViewController(animated: true)
     }
-    
     @IBAction func btLogout(sender: AnyObject) {
     }
-    
     @IBAction func didTapButton() {
         let vc = storyboard?.instantiateViewController(identifier: "videos") as! ViewController
         vc.navigationItem.largeTitleDisplayMode = .never
         navigationController?.pushViewController(vc, animated: true)
     }
     
-
-   
     //MARK: LifeCycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
     }
  
   
@@ -48,8 +40,6 @@ class PrincipalViewController: UIViewController, MFMailComposeViewControllerDele
         alertController.addAction(ok)
         self.present(alertController, animated: true, completion: nil)
         }
-        
-
     
 }
         
