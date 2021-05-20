@@ -29,7 +29,6 @@ class PrincipalViewController: UIViewController, MFMailComposeViewControllerDele
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
     }
  
   
@@ -41,6 +40,6 @@ class PrincipalViewController: UIViewController, MFMailComposeViewControllerDele
         alertController.addAction(ok)
         self.present(alertController, animated: true, completion: nil)
         }
-  
+    
 }
         

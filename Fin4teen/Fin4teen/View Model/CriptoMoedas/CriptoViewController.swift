@@ -33,6 +33,7 @@ class CriptoViewController: UIViewController, UITableViewDataSource, UITableView
         
         
         title = "Criptomoedas Hoje"
+      
         view.addSubview(tableView)
         tableView.dataSource = self
         tableView.delegate = self
