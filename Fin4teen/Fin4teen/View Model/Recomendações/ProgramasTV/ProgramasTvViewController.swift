@@ -35,8 +35,7 @@ class ProgramasTvViewController: UIViewController {
             view.backgroundColor = .black
             title = "Videoaulas"
             cadastramentaProgramasTv()
-            
-            
+          
         }
         
         //MARK: Functions

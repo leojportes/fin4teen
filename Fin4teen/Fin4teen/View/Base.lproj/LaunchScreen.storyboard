@@ -15,35 +15,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fin4teen" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rqr-eI-tqr">
-                                <rect key="frame" x="81" y="404" width="252" height="89"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="89" id="Sat-1y-wtl"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="59"/>
-                                <color key="textColor" red="0.50712712000000004" green="0.74018480330000003" blue="0.38693124039999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sobre dinheiro, sem enrolação! " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AiW-fX-agh">
-                                <rect key="frame" x="94" y="474" width="227" height="31"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="31" id="avG-us-Cjy"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="8SL-ZE-l6j">
+                                <rect key="frame" x="87" y="390" width="241.5" height="89.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fin4teen" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rqr-eI-tqr">
+                                        <rect key="frame" x="0.0" y="0.0" width="241.5" height="89.5"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="59"/>
+                                        <color key="textColor" red="0.50712712000000004" green="0.74018480330000003" blue="0.38693124039999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="AiW-fX-agh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="94" id="8a1-os-aGC"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="AiW-fX-agh" secondAttribute="bottom" constant="357" id="P9I-UG-mll"/>
-                            <constraint firstItem="AiW-fX-agh" firstAttribute="top" secondItem="rqr-eI-tqr" secondAttribute="bottom" constant="-19" id="QFs-1o-jNf"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rqr-eI-tqr" secondAttribute="trailing" constant="81" id="ajx-zz-GRL"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="AiW-fX-agh" secondAttribute="trailing" constant="93" id="iny-JH-bJa"/>
-                            <constraint firstItem="rqr-eI-tqr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="81" id="srs-qY-akV"/>
-                            <constraint firstItem="rqr-eI-tqr" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="360" id="zMt-ky-qaE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8SL-ZE-l6j" secondAttribute="trailing" constant="85.5" id="89d-ia-JUf"/>
+                            <constraint firstItem="8SL-ZE-l6j" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="PrG-wK-MHq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="8SL-ZE-l6j" secondAttribute="bottom" constant="382.5" id="SNA-Eo-YjP"/>
+                            <constraint firstItem="8SL-ZE-l6j" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="346" id="jgw-3J-q6S"/>
                         </constraints>
                     </view>
                 </viewController>

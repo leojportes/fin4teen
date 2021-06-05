@@ -10,6 +10,7 @@ import MessageUI
 
 class PrincipalViewController: UIViewController, MFMailComposeViewControllerDelegate {
 
+
     
     //MARK: Actions
     
@@ -28,7 +29,7 @@ class PrincipalViewController: UIViewController, MFMailComposeViewControllerDele
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+     
     }
  
   
@@ -40,6 +41,6 @@ class PrincipalViewController: UIViewController, MFMailComposeViewControllerDele
         alertController.addAction(ok)
         self.present(alertController, animated: true, completion: nil)
         }
-    
+
 }
         

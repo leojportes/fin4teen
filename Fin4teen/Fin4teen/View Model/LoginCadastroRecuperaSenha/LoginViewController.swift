@@ -82,22 +82,19 @@ class LoginViewController: UIViewController {
     }
     
     @IBAction func btInstagram(_ sender: AnyObject) {
-     
-        let alertControllerLivros = UIAlertController(title: "Atenção!", message: "Deseja acessar nosso perfil no Instagram?", preferredStyle: UIAlertController.Style.alert)
-        alertControllerLivros.addAction(UIAlertAction(title: "Acessar", style: .default, handler: { action in
-            self.urlInstagram()
-            
+        let autenticaPermicao = UIAlertController(title: "Alerta!", message: "Deseja ser redirecionado para o Instagram?", preferredStyle: UIAlertController.Style.alert)
+        autenticaPermicao.addAction(UIAlertAction(title: "Acessar", style: .default, handler: { action in
+            UIApplication.shared.open(URL(string: "https://www.instagram.com/fin4teenapp/")! as URL, options: [:], completionHandler: nil)
+         
         }))
-        self.present(alertControllerLivros, animated: true, completion: nil)
+        autenticaPermicao.addAction(UIAlertAction(title: "Cancelar", style: .cancel, handler: { (action: UIAlertAction!) in
+        }))
+        present(autenticaPermicao, animated: true, completion: nil)
     }
 
 
     // MARK: Functions
-        
-    func urlInstagram(){
-        let url = "https://www.instagram.com/fin4teenapp/"
-        UIApplication.shared.open(URL(string: url)! as URL, options: [:], completionHandler: nil)
-    }
+
     
         func alert(title:String, message:String) {
         let alertController:UIAlertController = UIAlertController(title: title, message: message, preferredStyle: .alert)

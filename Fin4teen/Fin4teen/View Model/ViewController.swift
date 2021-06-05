@@ -57,6 +57,23 @@ class ViewController: UIViewController {
 
         let item6:videosLista = videosLista(videosImage: UIImage(named: "as12leisdodinheiro")!, videosNome: "As 12 leis do dinheiro - O Primo Rico", videoArquivoNome: "https://www.youtube.com/watch?v=qAlfutQakXE")
         itemLista.append(item6)
+        
+        let item7:videosLista = videosLista(videosImage: UIImage(named: "as12leisdodinheiro")!, videosNome: "As 12 leis do dinheiro - O Primo Rico", videoArquivoNome: "https://www.youtube.com/watch?v=qAlfutQakXE")
+        itemLista.append(item7)
+        
+        let item8:videosLista = videosLista(videosImage: UIImage(named: "as12leisdodinheiro")!, videosNome: "As 12 leis do dinheiro - O Primo Rico", videoArquivoNome: "https://www.youtube.com/watch?v=qAlfutQakXE")
+        itemLista.append(item8)
+        
+        let item9:videosLista = videosLista(videosImage: UIImage(named: "as12leisdodinheiro")!, videosNome: "As 12 leis do dinheiro - O Primo Rico", videoArquivoNome: "https://www.youtube.com/watch?v=qAlfutQakXE")
+        itemLista.append(item9)
+        
+        let item10:videosLista = videosLista(videosImage: UIImage(named: "as12leisdodinheiro")!, videosNome: "As 12 leis do dinheiro - O Primo Rico", videoArquivoNome: "https://www.youtube.com/watch?v=qAlfutQakXE")
+        itemLista.append(item10)
+        
+        let item11:videosLista = videosLista(videosImage: UIImage(named: "as12leisdodinheiro")!, videosNome: "As 12 leis do dinheiro - O Primo Rico", videoArquivoNome: "https://www.youtube.com/watch?v=qAlfutQakXE")
+        itemLista.append(item11)
+        
+        
     }
     
 }
