@@ -34,26 +34,29 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .black
         title = "Videoaulas"
-        
-        let item:videosLista = videosLista(videosImage: UIImage(named: "videoAula")!, videosNome: "Video Aula 1", videoArquivoNome:  "https://www.youtube.com/watch?v=PilNQ2TkwGw&list=RDCMUCvPFGq6luCqAVGiFpzTvkIA&index=1")
+        cadastraAulas()
+    }
+    
+    //MARK: Functions
+    
+    func cadastraAulas(){         //Cadastra videoaulas
+        let item:videosLista = videosLista(videosImage: UIImage(named: "comeceaqui")!, videosNome: "Como começar a investir - Jovens de Negócios", videoArquivoNome:  "https://www.youtube.com/watch?v=PtAkxzMhobQ")
         itemLista.append(item)
         
-        let item2:videosLista = videosLista(videosImage: UIImage(named: "videoAula1")!, videosNome: "Video Aula 2", videoArquivoNome: "https://www.youtube.com/watch?v=PilNQ2TkwGw&list=RDCMUCvPFGq6luCqAVGiFpzTvkIA&index=1")
+        let item2:videosLista = videosLista(videosImage: UIImage(named: "invistabemcompoucodinheiro")!, videosNome: "Invista bem com pouco dinheiro - O Primo rico", videoArquivoNome: "https://www.youtube.com/watch?v=RYQ9pltY010")
         itemLista.append(item2)
-        
-        let item3:videosLista = videosLista(videosImage: UIImage(named: "videoAula2")!, videosNome: "Video Aula 3", videoArquivoNome: "https://www.youtube.com/watch?v=PilNQ2TkwGw&list=RDCMUCvPFGq6luCqAVGiFpzTvkIA&index=1")
+
+        let item3:videosLista = videosLista(videosImage: UIImage(named: "orcamentoperfeito")!, videosNome: "Orçamento Perfeito - O Primo rico", videoArquivoNome: "https://www.youtube.com/watch?v=W2N_TqJzFns")
         itemLista.append(item3)
-        
-        let item4:videosLista = videosLista(videosImage: UIImage(named: "videoAula")!, videosNome: "Video Aula 4", videoArquivoNome: "https://www.youtube.com/watch?v=PilNQ2TkwGw&list=RDCMUCvPFGq6luCqAVGiFpzTvkIA&index=1")
+
+        let item4:videosLista = videosLista(videosImage: UIImage(named: "comocomecarainvestir")!, videosNome: "Como começar a investir - Me poupe!", videoArquivoNome: "https://www.youtube.com/watch?v=aGGYFxLdFMw")
         itemLista.append(item4)
-        
-        let item5:videosLista = videosLista(videosImage: UIImage(named: "videoAula")!, videosNome: "Video Aula 5", videoArquivoNome: "https://www.youtube.com/watch?v=PilNQ2TkwGw&list=RDCMUCvPFGq6luCqAVGiFpzTvkIA&index=1")
+
+        let item5:videosLista = videosLista(videosImage: UIImage(named: "educacaofinanceiraxinteligenciafinanceira")!, videosNome: "Educação Financeira x Inteligência Financeira - Gustavo Cerbasi", videoArquivoNome: "https://www.youtube.com/watch?v=Jvt1JI-VsM0")
         itemLista.append(item5)
-        
-        let item6:videosLista = videosLista(videosImage: UIImage(named: "videoAula")!, videosNome: "Video Aula 6", videoArquivoNome: "https://www.youtube.com/watch?v=PilNQ2TkwGw&list=RDCMUCvPFGq6luCqAVGiFpzTvkIA&index=1")
+
+        let item6:videosLista = videosLista(videosImage: UIImage(named: "as12leisdodinheiro")!, videosNome: "As 12 leis do dinheiro - O Primo Rico", videoArquivoNome: "https://www.youtube.com/watch?v=qAlfutQakXE")
         itemLista.append(item6)
-        
-        
     }
     
 }
@@ -82,6 +85,6 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
         
         home.svideo = itemLista[indexpath1.row]
         self.navigationController?.pushViewController(home, animated: true)
-        
     }
+
 }
