@@ -112,7 +112,6 @@
 			children = (
 				C1977408265315DF0002BF3F /* ContateNosViewController.swift */,
 				C15608AA2645DD7600C6C165 /* RecomendacoesViewController.swift */,
-				C1521B932655B036004B2E71 /* Series */,
 				C1521B922655B033004B2E71 /* ProgramasTV */,
 				C156541B264AF28E0031872C /* Livros */,
 				C197740C265349300002BF3F /* Filmes */,
@@ -216,13 +215,6 @@
 				C1521B992655B0CC004B2E71 /* ProgramasTVCollectionViewCell.swift */,
 			);
 			path = ProgramasTV;
-			sourceTree = "<group>";
-		};
-		C1521B932655B036004B2E71 /* Series */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Series;
 			sourceTree = "<group>";
 		};
 		C156541A264AF24F0031872C /* Criptomoedas */ = {
